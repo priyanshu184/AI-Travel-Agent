@@ -112,8 +112,8 @@ visa_required = st.sidebar.checkbox("🛃 Check Visa Requirements")
 travel_insurance = st.sidebar.checkbox("🛡️ Get Travel Insurance")
 currency_converter = st.sidebar.checkbox("💱 Currency Exchange Rates")
 
-SERPAPI_KEY = "7c83740743d9533fe2a80d24ae938c6426553cd513bcb2f4ee5a38273b9e2bfb"
-GOOGLE_API_KEY = "AIzaSyBwOBQmVTGFBHh32Y6jJU6ulOeMp8_9ZHg"
+SERPAPI_KEY = ""
+GOOGLE_API_KEY = ""
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 params = {
@@ -300,5 +300,6 @@ if st.button("🚀 Generate Travel Plan"):
 
     st.subheader("🗺️ Your Personalized Itinerary")
     st.write(itinerary.content)
+
 
     st.success("✅ Travel plan generated successfully!")
