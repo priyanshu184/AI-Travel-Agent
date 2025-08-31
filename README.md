@@ -33,3 +33,9 @@ AI fetches flights, hotels, and local attractions.
 Generates a customized travel itinerary.
 
 Displays results in an interactive and user-friendly interface.
+
+🎯 Use Cases
+
+Personal trip planning.
+
+Travel agencies providing AI-based assistance.
